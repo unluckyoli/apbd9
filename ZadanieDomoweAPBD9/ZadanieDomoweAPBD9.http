@@ -1,0 +1,6 @@
+@ZadanieDomoweAPBD9_HostAddress = http://localhost:5212
+
+GET {{ZadanieDomoweAPBD9_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -3,13 +3,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CodeFirst.Data;
 
-public class ApplicationContext : DbContext
+public class ApplicationContextCw : DbContext
 {
-    protected ApplicationContext()
+    protected ApplicationContextCw()
     {
     }
 
-    public ApplicationContext(DbContextOptions options) : base(options)
+    public ApplicationContextCw(DbContextOptions options) : base(options)
     {
     }
 
